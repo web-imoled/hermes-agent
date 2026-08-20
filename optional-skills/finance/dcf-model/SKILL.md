@@ -11,6 +11,8 @@ metadata:
     related_skills: [excel-author, pptx-author, comps-analysis, lbo-model, 3-statement-model]
 ---
 
+> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/dcf-model/` heißt hier `~/Github/forks/NousResearch--hermes-agent/optional-skills/finance/dcf-model/` (Symlink: `#COWORK/IMOLED-digital/skills/dcf-model/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/dcf-model/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
+
 ## Environment
 
 This skill assumes **headless openpyxl** — you are producing an .xlsx file on disk.

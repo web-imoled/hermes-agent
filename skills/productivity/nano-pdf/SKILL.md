@@ -12,6 +12,8 @@ metadata:
     related_skills: [pdf, ocr-and-documents]
 ---
 
+> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/nano-pdf/` heißt hier `~/Github/forks/NousResearch--hermes-agent/skills/productivity/nano-pdf/` (Symlink: `#COWORK/IMOLED-digital/skills/nano-pdf/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/nano-pdf/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
+
 # nano-pdf
 
 Edit PDFs using natural-language instructions. Point it at a page and describe what to change. For structural PDF work (merge, split, forms, watermarks, creation), see the `pdf` skill; for text extraction from scans, see `ocr-and-documents`.

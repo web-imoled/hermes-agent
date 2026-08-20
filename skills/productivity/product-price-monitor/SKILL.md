@@ -11,6 +11,8 @@ metadata:
     related_skills: [maps]
 ---
 
+> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/product-price-monitor/` heißt hier `~/Github/forks/NousResearch--hermes-agent/skills/productivity/product-price-monitor/` (Symlink: `#COWORK/IMOLED-digital/skills/product-price-monitor/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/product-price-monitor/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
+
 # Product Price Monitor
 
 Monitor a concrete purchasable item and alert on a normalized all-in price or availability condition. Handle variants, taxes, fees, currencies, stock, cancellation terms, and duplicate alerts explicitly. Setup runs once in the foreground; the recurring check runs as a `cronjob` tick (the `price-watch` automation blueprint scaffolds this).
