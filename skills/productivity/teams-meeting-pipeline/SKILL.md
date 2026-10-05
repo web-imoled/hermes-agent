@@ -21,8 +21,6 @@ metadata:
       - /docs/guides/operate-teams-meeting-pipeline
 ---
 
-> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/teams-meeting-pipeline/` heißt hier `~/Github/forks/NousResearch--hermes-agent/skills/productivity/teams-meeting-pipeline/` (Symlink: `#COWORK/IMOLED-digital/skills/teams-meeting-pipeline/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/teams-meeting-pipeline/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas. **ACHTUNG:** Die komplette `hermes teams-pipeline`-CLI unten existiert hier nicht. Dieser Skill dient als BAUPLAN für eine eigene Teams-Meeting-Strecke über Microsoft Graph (Outlook-MCP, Graph-Subscriptions), nicht als lauffähige Anleitung.
-
 # Teams Meeting Pipeline
 
 Use this skill whenever the user asks about Microsoft Teams meeting summaries, transcripts, recordings, action items, Graph subscriptions, or any operational question about the Teams meeting pipeline. Works in any language — the triggers below are examples, not an exhaustive list.

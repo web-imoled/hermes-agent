@@ -11,8 +11,6 @@ metadata:
     category: web-development
 ---
 
-> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/har-derived-api-client/` heißt hier `~/Github/forks/NousResearch--hermes-agent/optional-skills/web-development/har-derived-api-client/` (Symlink: `#COWORK/IMOLED-digital/skills/har-derived-api-client/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/har-derived-api-client/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
-
 # HAR-Derived API Client
 
 Drive a website once with a real browser while recording its network traffic

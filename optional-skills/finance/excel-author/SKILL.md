@@ -11,8 +11,6 @@ metadata:
     related_skills: [xlsx, pptx-author, dcf-model, comps-analysis, lbo-model, 3-statement-model]
 ---
 
-> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/excel-author/` heißt hier `~/Github/forks/NousResearch--hermes-agent/optional-skills/finance/excel-author/` (Symlink: `#COWORK/IMOLED-digital/skills/excel-author/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/excel-author/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
-
 # excel-author
 
 Produce an .xlsx file on disk using `openpyxl`. Follow the banker-grade conventions below so the model is auditable, flexible, and reviewable by someone other than the person who built it.

@@ -28,7 +28,7 @@ import urllib.request
 # Constants
 # ---------------------------------------------------------------------------
 
-USER_AGENT = "IMOLED-Cowork/1.0 (contact: web@imoled.de)"
+USER_AGENT = "HermesAgent/1.0 (contact: hermes@agent.ai)"
 DATA_SOURCE = "OpenStreetMap/Nominatim"
 
 NOMINATIM_SEARCH  = "https://nominatim.openstreetmap.org/search"

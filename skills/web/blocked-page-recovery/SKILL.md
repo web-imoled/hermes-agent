@@ -11,8 +11,6 @@ metadata:
     related_skills: [grounded-citations]
 ---
 
-> **IMOLED-Anpassung (2026-08-20):** Dieser Skill stammt aus dem Studien-Fork `NousResearch/hermes-agent` und läuft hier unter Claude Code, nicht unter der Hermes-Laufzeit. Übersetzung: Der Skill-Ordner `~/.hermes/skills/blocked-page-recovery/` heißt hier `~/Github/forks/NousResearch--hermes-agent/skills/research/blocked-page-recovery/` (Symlink: `#COWORK/IMOLED-digital/skills/blocked-page-recovery/`). Zustands-Pfade `~/.hermes/...` heißen hier `~/.config/imoled/hermes-skills/blocked-page-recovery/...` (bei Bedarf anlegen). Werkzeug-Übersetzung: `web_search`/`web_extract` = WebSearch/WebFetch, `browser_navigate` = Browser-Werkzeuge, Terminal-Tool = Bash. `create_job(...)` und `hermes cron` gibt es hier NICHT: keine neuen Scheduled Tasks (Andreas-Setzung 28.05.2026); wiederkehrende Ticks laufen über /loop in der Session oder als Vorschlag an Andreas.
-
 # Blocked-Page Recovery
 
 When a page won't fetch — 403/429, Cloudflare "Just a moment...", a paywall,
